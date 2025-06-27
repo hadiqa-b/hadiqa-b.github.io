@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hadiqa Basit</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+    }
+    .about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .section {
+      margin-top: 3rem;
+    }
+    .project, .blog-post {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Hadiqa Basit</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about" class="about">
+      <div>
+        <h2>About Me</h2>
+        <p>Statistician-turned-ML engineer. I build systems that learn from messy real-world data. Currently exploring reinforcement learning, production pipelines, and real-world impact.</p>
+        <p><strong>Contact:</strong><br>
+          <a href="https://linkedin.com/in/your-profile">LinkedIn</a><br>
+          <a href="mailto:hadiqabasit4@gmail.com">Email</a><br>
+          <a href="https://github.com/hadiqa-b">GitHub</a>
+        </p>
+      </div>
+      <img src="input.jpg" alt="Hadiqa">
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project Title</h3>
+        <p>Description of the project. What it does, how it works, why it's meaningful.</p>
+      </div>
+      <!-- Add more project divs here -->
+    </section>
+
+    <section id="blog" class="section">
+      <h2>Blog</h2>
+      <div class="blog-post">
+        <h3>Post Title <small>(Date)</small></h3>
+        <p>Short summary or intro to the post...</p>
+        <a href="#">Read more</a>
+      </div>
+      <!-- Add more blog posts here -->
+    </section>
+
+    <section id="resume" class="section">
+      <h2>Resume</h2>
+      <p><a href="resume.pdf">Download my resume</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; Hadiqa Basit
+  </footer>
+</body>
+</html>
